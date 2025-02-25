@@ -6,4 +6,15 @@
 1. In your terminal, run `git clone https://github.com/srebello2003/QuMonte.git` to clone the repository.
 2. Run `cd QuMonte`.
 3. Create a virtual environment if necessary, and run `pip install -r requirements.txt` to install the requirements.
-4. Run the notebook `Pricing_Fixed_Income_Assets.ipynb`, which contains various functions that are used to train the model
+4. Run the notebook `Pricing_Fixed_Income_Assets.ipynb`, which contains various functions that are used to simulate fixed-income asset pricing using an optimized quantum circuit.
+
+## Requirements
+The requirements and specific versions are provided in `requirements.txt`. Furthermore, this code assumes you have a CPU and GPU available; otherwise, the optimization score calculation will not work.
+
+## Repository Structure
+- [**`Pricing_Fixed_Income_Assets.ipynb`**](Pricing_Fixed_Income_Assets.ipynb): This Jupyter Notebook contains code for implementing quantum-enhanced Monte Carlo simulations for pricing fixed-income assets. It features an optimized 5-qubit quantum circuit using Rx and Rz gates to minimize gate depth, reduce noise, and improve accuracy.
+- [**`README.md`**](README.md): Repository readme with setup and execution instructions.
+- [**`requirements.txt`**](requirements.txt): Requirements to be installed before running the Python scripts. These include pytorch for training the model and pytorch_fid for computing the FID scores.
+
+## Copyright
+Copyright © 2025 Positive Technology Lab. All rights reserved. For permissions, contact ptl@rice.edu.
