@@ -1,1 +1,8 @@
-
+numpy
+scipy==1.11.1
+matplotlib
+pandas
+qiskit
+scikit-learn
+tqdm
+pillow
