@@ -12,7 +12,7 @@
 The requirements and specific versions are provided in `requirements.txt`. Furthermore, this code assumes you have a CPU and GPU available; otherwise, the optimization score calculation will not work.
 
 ## Repository Structure
-- [**`Pricing_Fixed_Income_Assets.ipynb`**](Pricing_Fixed_Income_Assets.ipynb): This Jupyter Notebook contains code for implementing quantum-enhanced Monte Carlo simulations for pricing fixed-income assets. It features an optimized 5-qubit quantum circuit using Rx and Rz gates to minimize gate depth, reduce noise, and improve accuracy.
+- [**`Pricing_Fixed_Income_Assets.ipynb`**](Pricing_Fixed_Income_Assets.ipynb): This Jupyter Notebook contains code for implementing quantum-enhanced Monte Carlo simulations for pricing fixed-income assets. It features an optimized 5-qubit quantum circuit using Rx and Rz gates and the BOBYQA optimizer to minimize gate depth, reduce noise, and improve accuracy.
 - [**`README.md`**](README.md): Repository readme with setup and execution instructions.
 - [**`requirements.txt`**](requirements.txt): Requirements to be installed before running the Python scripts. These include pytorch for training the model and pytorch_fid for computing the FID scores.
 
